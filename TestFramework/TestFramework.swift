@@ -17,4 +17,8 @@ public struct HelloWorld {
     public static func someNewFunc() -> String {
         "It's something different \(Bool.random())"
     }
+    
+    public static func oneMoreNewFunc() -> String {
+        "Hello waka \(Int.random(in: 0..<100))"
+    }
 }
